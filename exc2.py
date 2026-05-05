@@ -1,13 +1,15 @@
-#variável de texto
-nome= "João"
+nome= "João_Pedro"
+print(type(nome))
 
-#variável numero
-idadae= "19"
+idade= 19
+print(type(idade))
 
-#variável numero decimal
-altura= 1,68
+altura= 1.68
+print(type(altura))
 
-#variável verdadeiro/falso
-ativo= True
+eu_gosto_de_programar= True
 
+print(type(eu_gosto_de_programar))    
 
+print(f"Meu nome é {nome}, tenho {idade} anos, minha altura é {altura} e é { eu_gosto_de_programar} que eu gosto de programar")
+  
